@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Information App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>FinnKino Movie Info</h1>
+    <label for="theater-select">Select Theater:</label>
+    <select id="theater-select"></select>
+
+    <label for="date-select">Select Date:</label>
+    <select id="date-select"></select>
+
+    <button onclick="fetchMovies()">Get Movies</button>
+    <div id="movie-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>

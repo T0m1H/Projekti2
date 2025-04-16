@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #ffffff; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #282828; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+}
+
+select:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #f0f0f0;
+}
+
+#movie-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    background-color: #282828;
+    border: 1px solid #444444; 
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    color: #ffffff; 
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
+.movie-card h3 {
+    color: #ffcc00; 
+}
+
+movie-card p {
+    color: #ffffff; 
+}
