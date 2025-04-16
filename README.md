@@ -1,6 +1,6 @@
 Project Title The name of this Javascript Project 2 is "Finnkino movie info", and it is made by Tomi Haukka.
 
-Demo link: 
+Demo link: https://leffainfo.netlify.app/
 
 How was the workload divided I made this project by myself.
 
