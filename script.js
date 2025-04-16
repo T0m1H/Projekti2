@@ -26,13 +26,12 @@ async function fetchTheaters() {
 
 function populateDateDropdown() {
     const select = document.getElementById("date-select");
-    select.innerHTML = ""; // Clear any existing options
-
+    select.innerHTML = ""; 
     // Lisätään seuraavat 7 päivää päivämäärävalikkoon
     for (let i = 0; i < 7; i++) { // viikko
         const date = new Date();
         date.setDate(date.getDate() + i);
-        const formattedDate = date.toISOString().split("T")[0]; // Format as YYYY-MM-DD
+        const formattedDate = date.toISOString().split("T")[0]; 
 
         const option = document.createElement("option");
         option.value = formattedDate;
@@ -54,7 +53,7 @@ async function fetchMovies() {
 
         const shows = xmlData.querySelectorAll("Show");
         const container = document.getElementById("movie-container");
-        container.innerHTML = ""; // Clear existing content
+        container.innerHTML = ""; 
 
         shows.forEach(show => {
             const title = show.querySelector("Title").textContent;
@@ -77,7 +76,7 @@ async function fetchMovies() {
     }
 }
 
-// Initialize theater dropdown and date dropdown on page load
+
 document.addEventListener("DOMContentLoaded", () => {
     fetchTheaters();
     populateDateDropdown();
