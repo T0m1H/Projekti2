@@ -8,6 +8,6 @@ Technologies I used in this project HTML, CSS and Javascript. HTML and CSS was f
 
 Setup
 
-Just click the link: https://incomparable-melomakarona-da93b1.netlify.app/ and there will be ready to use Finnkino movie info.
+Just click the link: https://leffainfo.netlify.app/ and there will be ready to use Finnkino movie info.
 
 Credits I used W3school, lecture materials and videos and copilot, because I didn't found out, how to get the movie length to show.
